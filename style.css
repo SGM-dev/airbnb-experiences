@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Poppins;
 }
 
 body {
@@ -26,4 +27,42 @@ nav {
 
 .nav--logo {
   max-width: 100px;
+}
+
+/* HERO */
+
+.hero {
+  padding: 25px 35px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero--img {
+  max-width: 395px;
+  margin-bottom: 32px;
+}
+
+
+
+
+.hero--img {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--title {
+  margin-bottom: 16px;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 110%; /* 39.6px */
+}
+
+.hero--text {
+  color: #222;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 110%; /* 17.6px */
+  padding-right: 160px;
 }
