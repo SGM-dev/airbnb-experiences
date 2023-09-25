@@ -43,9 +43,6 @@ nav {
   margin-bottom: 32px;
 }
 
-
-
-
 .hero--img {
   max-width: 400px;
   align-self: center;
@@ -65,4 +62,65 @@ nav {
   font-weight: 300;
   line-height: 110%; /* 17.6px */
   padding-right: 160px;
+}
+
+/* CARD */
+
+.card {
+  max-width: 175px;
+  margin: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card--img {
+  height: 235px;
+  object-fit: cover;
+  border-radius: 9px;
+}
+
+.card--stats {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.rating--img {
+  width: 14px;
+}
+
+.rating--score {
+  color: #222;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 110%; /* 13.2px */
+}
+
+.gray {
+  color: #918e9b;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 110%; /* 13.2px */
+}
+
+.experience--info {
+  color: #222;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 110%; /* 13.2px */
+}
+
+.experience--cost {
+  color: #222;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 110%;
+}
+
+.experience--cost span {
+  color: #222;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 110%; /* 13.2px */
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import heroImage from "../assets/photo-grid.png";
 
-export function Hero() {
+export default function Hero() {
   return (
     <header className="hero">
       <img src={heroImage} alt="photo-grid" className="hero--img" />
