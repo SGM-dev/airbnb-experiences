@@ -5,19 +5,8 @@ import Card from "./components/Card";
 import data from "./components/data";
 
 export default function App() {
-  const cardHtml = data.map((exp) => {
-    return (
-      <Card
-        key={exp.id}
-        img={exp.coverImg}
-        rating={exp.stats.rating}
-        reviewCount={exp.stats.reviewCount}
-        location={exp.location}
-        title={exp.title}
-        price={exp.price}
-        openSpots={exp.openSpots}
-      />
-    );
+  const cardHtml = data.map((item) => {
+    return <Card key={item.id} item={item} />;
   });
 
   return (
