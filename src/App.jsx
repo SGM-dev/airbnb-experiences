@@ -15,6 +15,7 @@ export default function App() {
         location={exp.location}
         title={exp.title}
         price={exp.price}
+        openSpots={exp.openSpots}
       />
     );
   });
