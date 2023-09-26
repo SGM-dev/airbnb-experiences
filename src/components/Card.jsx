@@ -11,6 +11,7 @@ export default function Card({
 }) {
   return (
     <div className="card">
+      <div className="card--badge">SOLD OUT</div>
       <img className="card--img" src={`src/assets/${img}`} />
       <div className="card--stats">
         <img className="rating--img" src={starImg} />
