@@ -39,13 +39,9 @@ nav {
 }
 
 .hero--img {
-  max-width: 395px;
-  margin-bottom: 32px;
-}
-
-.hero--img {
   max-width: 400px;
   align-self: center;
+  margin-bottom: 32px;
 }
 
 .hero--title {
