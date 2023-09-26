@@ -5,7 +5,7 @@ export default function Card({
   img,
   rating,
   reviewCount,
-  country,
+  location,
   title,
   price,
 }) {
@@ -16,7 +16,7 @@ export default function Card({
         <img className="rating--img" src={starImg} />
         <span className="rating--score ">{rating}</span>
         <span className="ratings gray">({reviewCount}) • </span>
-        <span className="country--info gray">{country}</span>
+        <span className="country--info gray">{location}</span>
       </div>
       <p className="experience--info">{title}</p>
       <p className="experience--cost">
