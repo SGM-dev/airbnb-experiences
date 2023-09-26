@@ -12,6 +12,7 @@ body {
 #root {
   max-width: 550px;
   margin: 0 auto;
+  height: 100vh;
   background-color: #fff;
   border-radius: 9px;
 }
@@ -62,8 +63,14 @@ nav {
 
 /* CARD */
 
+.card-container {
+  display: flex;
+  padding: 15px 35px;
+  gap: 15px;
+  overflow-x: auto;
+}
+
 .card {
-  padding: 30px 35px;
   display: flex;
   flex-direction: column;
   gap: 8px;
